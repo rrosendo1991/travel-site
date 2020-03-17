@@ -1,5 +1,8 @@
 import '../styles/styles.css'
+import MobileMenu from './modules/MobileMenu.js'
+
+let mobileMenu = new MobileMenu();
 
 if (module.hot) {
-    modeule.hot.accept()
+    module.hot.accept()
 }
